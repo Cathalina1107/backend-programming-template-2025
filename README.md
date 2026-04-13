@@ -1,3 +1,16 @@
+Membuat endpoint untuk sebuah aplikasi undian dengan sistem gacha
+Setiap user memiliki batas maksimal 5 kali
+
+Endpoint: 'POST /api/gacha'
+Melakukan gacha untuk mendapatkan hadiah secara acak dengan memasukkan userId di body json
+Jika user yang sama sudah lebih dari 5 kali, ditolak/muncul error
+
+Endpoint: 'GET /api/gacha/history/:userId'
+Melihat riwayat gacha pada setiap user yang dituju
+
+Endpoint: 'GET /api/gacha/daftar'
+Menampilkan jumlah hadiah yang tersisa di database
+
 # Backend Programming Template (2025)
 
 ## Development Setup
